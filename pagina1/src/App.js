@@ -1,25 +1,14 @@
-import logo from './logo.svg';
+import Header from "./componentes/Header/Header.js"
 import './App.css';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        
-        <p>
-          <code>Hola/Teddy</code> 
-        </p>
-        <a
-          className="App-link"
-          href="https://google.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Hola Mundo con React 
-        </a>
-      </header>
+  return ( 
+    <div>
+      <Header> 
+
+      </Header>
     </div>
-  );
+  )
 }
 
 export default App;
