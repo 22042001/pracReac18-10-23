@@ -3,7 +3,7 @@ import "./texto.css" //importamos nuestro texto.css
 const Texto = (props)=>{
     const placeHolderModificado = `${props.placeHolder}...` //es una propiedad placeholder
     return <div className="texto">
-        <label> {props.Titulo} </label>
+        <label> {props.titulo} </label>
         <input placeHolder={placeHolderModificado}></input>
     </div>
 }
